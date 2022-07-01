@@ -29,7 +29,7 @@ const Footer = () => {
       <div className="flex flex-col justify-center items-center gap-8 mt-6 md:flex-row md:justify-between md:items-start">
         {/* logo */}
         <span className="text-xl font-bold text-textPrimary w-full block text-center md:text-left">
-          Boutique Hotel
+         River Court Hotel
         </span>
 
         {/* footer links */}
@@ -53,7 +53,7 @@ const Footer = () => {
       <div className="flex flex-col gap-4 md:flex-row md:justify-between">
         {/* copyright tag */}
         <div className="flex flex-row justify-center items-center text-xs gap-1">
-          <span>© 2022 Boutique House</span>
+          <span>© 2022 River Court</span>
           <span className="block h-1 w-1 rounded-full bg-textSecondary" />
           <Link to="/" className="underline">
             Terms
@@ -63,8 +63,8 @@ const Footer = () => {
             Privacy
           </Link>
         </div>
-        {/* Social media links */}
-        <div className="flex flex-row justify-center items-center gap-6">
+         {/* Social media links */}
+         <div className="flex flex-row justify-center items-center gap-6">
           <Link to="/">
             <FaFacebook className="text-2xl fill-textLight hover:fill-textPrimary" />
           </Link>
@@ -81,3 +81,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

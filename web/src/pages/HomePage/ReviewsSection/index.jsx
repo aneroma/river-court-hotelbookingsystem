@@ -4,27 +4,26 @@ import {v4} from "uuid";
 
 const reviews = [
   {
-    name: "John Agar",
+    name: "John Sheehan",
     comment:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed totam voluptatibus non.",
+      "We stayed in the hotel in April as we were guests at a wedding in the hotel. We had a fabulous time! The wedding we attended started at 2.30pm and we emailed ahead to see if we could check into our room early, the reception staff were very obliging and allowed us to check in at 2pm, which gave us time to unpack and get ready for the wedding. "
+  },
+  {
+    name: "Diana Tifrea",
+    comment:
+      "We booked 4 rooms and stayed here at weekend 2 nights, for a family christening nearby, we got an upgrade which was lovely, can't fault this hotel one bit, the intire staff were very helpful and obliging to everything including travel cots at a whim, food was excellent too, will definately return",
     img: null,
   },
   {
-    name: "Betty Cooper",
+    name: "Nicola Finnegan",
     comment:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed totam voluptatibus non. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed totam voluptatibus non.",
+      "Stayed for 3 nights in this lovely Central hotel. The rooms were clean and we had a great view of the castle . The hotel is so handy to all Kilkenny has to offer, we ate in the bar one evening and had great breakfasts each morning. Staff were friendly and more than helpful.",
     img: null,
   },
   {
-    name: "Nathan White",
+    name: "WChloe Vundla",
     comment:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed totam voluptatibus non. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    img: null,
-  },
-  {
-    name: "Willa Frazier",
-    comment:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sed totam voluptatibus non. Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      "Lovely hotel, really central. We parked and didn't move the car until we left. Keep driving round to the back of the hotel for parking though, don't bother squeezing into a spot in the front carpark..",
     img: null,
   },
 ];

@@ -48,7 +48,7 @@ const SmallRequestView = ({
         Total
         <br />
         <span className="text-lg text-textPrimary font-extrabold">
-          ${total}
+        €{total}
         </span>
       </span>
     </div>

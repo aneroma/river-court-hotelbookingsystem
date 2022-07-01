@@ -6,7 +6,7 @@ const HeroSection = () => {
   return (
     <div className="flex flex-col">
       <img
-        src="https://unsplash.com/photos/b_79nOqf95I/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MjB8fGd1ZXN0JTIwaG91c2V8ZW58MHx8fHwxNjUzNDg0NjEw&force=true"
+        src="https://www.rivercourthotel.com/cmsGallery/photo/5317/resized/800x800/conference_space_1600_x_900_2.jpg"
         alt=""
         className="rounded-3xl h-[80vh] w-full object-cover"
       />

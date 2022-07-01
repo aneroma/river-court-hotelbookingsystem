@@ -23,7 +23,7 @@ const SmallRoomCard = ({type, cost, img}) => {
         <span className="text-sm flex flex-col md:flex-row flex-wrap gap-1">
           Starting from
           <strong className="font-bold text-sm inline-block">
-            ${cost}/night
+          €{cost}/night
           </strong>
         </span>
         <button className="text-primary-400 text-left text-sm font-bold">

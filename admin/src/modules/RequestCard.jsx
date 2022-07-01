@@ -87,13 +87,13 @@ const ReservationCard = ({
       <div className="flex flex-col gap-2 items-center  pb-4 lg:p-0">
         <span className="text-sm flex flex-row gap-1 items-center">
           Cost
-          <strong className="font-black text-textPrimary">${cost}</strong>/
+          <strong className="font-black text-textPrimary">€{cost}</strong>/
           <small>night</small>
         </span>
         <span className="text-sm flex flex-row gap-1 items-center">
           Total
           <strong className="text-base font-black text-textPrimary">
-            ${total}
+          €{total}
           </strong>
           <small>Inc VAT</small>
         </span>

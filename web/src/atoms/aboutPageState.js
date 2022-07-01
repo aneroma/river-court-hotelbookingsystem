@@ -9,11 +9,11 @@ export const aboutPictureState = atom({
 export const aboutPicturesCollection = atom({
   key: "aboutPicturesKey",
   default: [
-    "https://unsplash.com/photos/hHz4yrvxwlA/download?force=true",
-    "https://unsplash.com/photos/hHz4yrvxwlA/download?force=true",
-    "https://unsplash.com/photos/g39p1kDjvSY/download?force=true",
-    "https://unsplash.com/photos/tVzyDSV84w8/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NHx8Z3Vlc3QlMjBob3VzZXxlbnwwfHx8fDE2NTQxMDQxNzQ&force=true",
-    "https://unsplash.com/photos/tVzyDSV84w8/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NHx8Z3Vlc3QlMjBob3VzZXxlbnwwfHx8fDE2NTQxMDQxNzQ&force=true",
+    "https://www.rivercourthotel.com/cmsGallery/photo/5317/resized/800x800/wedding_gallery_3.jpg",
+    "https://www.rivercourthotel.com/cmsGallery/photo/5317/resized/800x800/wedding_gallery_4.jpg",
+    "https://www.rivercourthotel.com/cmsGallery/photo/5317/resized/800x800/wedding_gallery_5.jpg",
+    "https://www.rivercourthotel.com/cmsGallery/photo/5317/resized/800x800/wedding_gallery_6.jpg",
+    "https://www.rivercourthotel.com/cmsGallery/photo/5317/resized/800x800/wedding_gallery_7.jpg",
   ],
   // default: [heroImg, heroImg, heroImg, heroImg, heroImg],
 });

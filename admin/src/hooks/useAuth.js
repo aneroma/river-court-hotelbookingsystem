@@ -7,7 +7,7 @@ export function useAuth() {
   const setAuth = recoil.useSetRecoilState(authState);
 
   function login(email, password) {
-    if (email !== "admin@bh.com" || password !== "bh.admin") {
+    if (email !== "admin@krch.com" || password !== "krch.admin") {
       return;
     }
 

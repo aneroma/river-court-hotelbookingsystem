@@ -8,7 +8,7 @@ const Carousal = () => {
     <div className="w-full py-4">
       <div className="mb-12">
         <h4 className="text-3xl font-bold text-textPrimary mb-4">
-          Boutique Hotel
+        River Court Hotel
         </h4>
         <div className="flex flex-row justify-start items-center gap-2">
           <Chip label={<GrLocation className="text-lg fill-textSecondary" />} />

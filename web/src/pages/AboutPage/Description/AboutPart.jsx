@@ -2,16 +2,16 @@ import React from "react";
 import {BsBuilding, BsClock, BsWifi} from "react-icons/bs";
 import {GiFlowerPot, GiDesk} from "react-icons/gi";
 import {RiParkingBoxLine} from "react-icons/ri";
-import {MdPool, MdOutlineFoodBank} from "react-icons/md";
+import {MdOutlineFoodBank} from "react-icons/md";
 import {v4} from "uuid";
 
 const features = [
-  {Icon: GiFlowerPot, name: "Garden View"},
+ 
   {Icon: BsWifi, name: "Free Wifi"},
   {Icon: RiParkingBoxLine, name: "Free Parking"},
   {Icon: MdOutlineFoodBank, name: "Kitchen"},
   {Icon: GiDesk, name: "Dedicated Workspace"},
-  {Icon: MdPool, name: "Private Pool"},
+  {Icon: GiFlowerPot, name: "Garden View"},
 ];
 
 const AboutPart = () => {
@@ -20,7 +20,8 @@ const AboutPart = () => {
       {/* top part */}
       <div>
         <h2 className="text-textPrimary font-bold text-2xl mb-2 lg:max-w-[30ch]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Welcome to the
+            Kilkenny River Court Hotel
         </h2>
         <div className="flex flex-row items-center text-sm text-textPrimary gap-1">
           <span>6 Guests</span>
@@ -29,7 +30,7 @@ const AboutPart = () => {
           <span className="block h-1 w-1 rounded-full bg-textSecondary" />
           <span>6 Beds</span>
           <span className="block h-1 w-1 rounded-full bg-textSecondary" />
-          <span>4.5 Baths</span>
+          <span>5 Baths</span>
         </div>
       </div>
 
@@ -41,13 +42,17 @@ const AboutPart = () => {
           Our <span className="text-primary-400">ambition</span>
         </span>
         <p className="text-sm leading-[1.7]">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis
-          congue justo, elementum ut quisque velit aenean viverra. Accumsan eu,
-          augue porttitor eleifend sagittis. Sed augue tincidunt leo porta
-          malesuada vitae, tellus. Vitae lacinia vulputate interdum auctor cras
-          imperdiet vitae lacus, sem. Vitae eget aliquam non venenatis turpis
-          placerat et cursus feugiat. Morbi amet in faucibus ac ultricies
-          facilisis ultrices.
+        On the banks of the River Nore in the heart of the medieval city of Kilkenny.
+
+With magnificent views of the city's 12th-century Kilkenny Castle, The Kilkenny River Court Hotel has a quiet location set in a private courtyard and conveniently situated back from the busy Kilkenny streets. The main shopping areas, theatres, entertainment, tourist attractions and Kilkenny’s Medieval Mile are all close by right on the hotel’s doorstep.
+
+Each of our large and comfortable guestrooms are stylishly decorated with beautiful fine furnishings, crisp white linens and soft relaxing tones, ensuring a restful night’s sleep. We also offer FREE Wi-Fi throughout this Kilkenny Hotel and complimentary car parking for our hotel residents and patrons. 
+
+Some guestrooms overlook the River Nore and some with stunning views of Kilkenny Castle.   
+
+Guests can dine at the award-winning Riverside Restaurant and Riverview Bar which offers an al fresco dining experience in the summertime. The hotel can also host weddings, corporate events and special family occasions. 
+
+The Kilkenny River Court Hotel is part of the Neville Hotel Group with hotels located in Dublin, Wicklow and Waterford.
         </p>
       </div>
 
@@ -59,7 +64,7 @@ const AboutPart = () => {
           <BsBuilding className="text-lg" />
           <span>Established in</span>
         </h6>
-        <p className="text-sm">25 November 2019</p>
+        <p className="text-sm">25 November 2009</p>
         <h6 className="font-bold text-sm text-textPrimary mt-4 flex flex-row items-center gap-2">
           <BsClock className="text-lg" />
           <span>Free cancellation for 48 hours</span>

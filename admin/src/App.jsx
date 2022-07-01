@@ -60,7 +60,7 @@ const App = () => {
         // Login screen
         <div className="w-full h-screen flex flex-col justify-center items-center gap-6">
           <h4 className="text-xl md:text-2xl font-extrabold text-textPrimary">
-            Boutique Hotel admin panel
+           River Court Hotel admin panel
           </h4>
 
           <FormWrapper

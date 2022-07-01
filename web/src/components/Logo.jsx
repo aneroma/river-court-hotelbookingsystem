@@ -14,8 +14,8 @@ const Logo = () => {
       className="flex justify-center items-center text-black text-2xl font-extrabold gap-[2px]"
       onClick={onClick}
     >
-      <span className="italic">B</span>
-      <span>H</span>
+      <span className="italic">River Court</span>
+      <span>Hotel</span>
     </button>
   );
 };

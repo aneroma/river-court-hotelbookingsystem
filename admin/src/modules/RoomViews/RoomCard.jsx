@@ -39,7 +39,7 @@ const RoomCard = ({room}) => {
           <span className="font-extrabold text-sm">Cost</span>
           <span className="text-xs">
             <span className="text-primary-400 text-base font-extrabold">
-              ${room.cost}
+            €{room.cost}
             </span>
             /night
           </span>

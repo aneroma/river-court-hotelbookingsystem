@@ -48,7 +48,7 @@ const ReviewRequestModal = ({
 
             <span className="text-sm">
               <span className="font-extrabold text-lg text-textPrimary">
-                ${cost}
+              €{cost}
               </span>
               /day
             </span>
@@ -73,7 +73,7 @@ const ReviewRequestModal = ({
             <span className="text-textPrimary">
               Total
               <br />
-              <span className="text-lg font-extrabold">${total}</span>
+              <span className="text-lg font-extrabold">€{total}</span>
             </span>
           </div>
 

@@ -71,7 +71,7 @@ const RoomCard = ({
           <p className="text-sm leading-6">{description}</p>
           <div className="flex flex-row justify-start items-center gap-4 mb-4">
             <Chip label={type} />
-            <Chip label={`$${cost}/night`} />
+            <Chip label={`€${cost}/night`} />
           </div>
 
           {/* Optional button for rooms page only */}
