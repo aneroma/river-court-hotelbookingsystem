@@ -17,7 +17,7 @@ const HeroSection = () => {
           Make your holidays
         </span>
         <span className="font-extrabold leading-[0.9] text-[68px] lg:text-8xl text-primary-400">
-          Special
+          Amazing
         </span>
       </div>
     </div>
