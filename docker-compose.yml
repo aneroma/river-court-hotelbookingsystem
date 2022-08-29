@@ -1,5 +1,9 @@
 version: "3.8"
 
+networks:
+  dockernet:
+    external: true
+
 services:
   db:
     image: postgres:14-alpine
@@ -7,9 +11,11 @@ services:
     env_file: ./.env
     volumes:
       - boutique_hotel:/var/lib/psql
+    networks:
+      - dockernet
 
   server:
-    container_name: api
+    container_name: bh-api
     build: ./server
     restart: always
     depends_on:
@@ -26,9 +32,11 @@ services:
       - DB_PASSWORD=$POSTGRES_PASSWORD
       - SMTP_EMAIL=$SMTP_EMAIL
       - SMTP_PASSWORD=$SMTP_PASSWORD
+    networks:
+      - dockernet
 
   web:
-    container_name: landing_page
+    container_name: bh-landing-page
     build: ./web
     depends_on:
       - server
@@ -40,9 +48,11 @@ services:
       - REACT_APP_API_URL=$REACT_APP_API_URL
     ports:
       - "3000:3000"
+    networks:
+      - dockernet
 
   admin:
-    container_name: admin_page
+    container_name: bh-admin-page
     build: ./admin
     depends_on:
       - server
@@ -53,6 +63,8 @@ services:
       - REACT_APP_API_URL=$REACT_APP_API_URL
     ports:
       - "3001:3001"
+    networks:
+      - dockernet
 
 volumes:
   boutique_hotel:
