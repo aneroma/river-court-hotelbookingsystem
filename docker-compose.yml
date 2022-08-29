@@ -1,6 +1,8 @@
 version: "3.8"
 
-
+networks:
+  dockernet:
+    external: true
 
 services:
   db:
@@ -9,7 +11,8 @@ services:
     env_file: ./.env
     volumes:
       - boutique_hotel:/var/lib/psql
-   
+    networks:
+      - dockernet
 
   server:
     container_name: bh-api
@@ -29,7 +32,8 @@ services:
       - DB_PASSWORD=$POSTGRES_PASSWORD
       - SMTP_EMAIL=$SMTP_EMAIL
       - SMTP_PASSWORD=$SMTP_PASSWORD
-  
+    networks:
+      - dockernet
 
   web:
     container_name: bh-landing-page
@@ -44,7 +48,8 @@ services:
       - REACT_APP_API_URL=$REACT_APP_API_URL
     ports:
       - "3000:3000"
-  
+    networks:
+      - dockernet
 
   admin:
     container_name: bh-admin-page
@@ -58,7 +63,8 @@ services:
       - REACT_APP_API_URL=$REACT_APP_API_URL
     ports:
       - "3001:3001"
-
+    networks:
+      - dockernet
 
 volumes:
   boutique_hotel:
