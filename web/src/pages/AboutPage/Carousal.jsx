@@ -11,8 +11,8 @@ const Carousal = () => {
         River Court Hotel
         </h4>
         <div className="flex flex-row justify-start items-center gap-2">
-          <Chip label={<GrLocation className="text-lg fill-textSecondary" />} />
-          <Chip label="Area, City, Location" />
+        <Chip label={<GrLocation className="text-lg fill-textSecondary" />} />
+          <Chip label="Leinster, Co. Kilkenny, R95 Y104 " />
         </div>
       </div>
       <PictureBox />

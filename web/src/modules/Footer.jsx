@@ -65,15 +65,18 @@ const Footer = () => {
         </div>
          {/* Social media links */}
          <div className="flex flex-row justify-center items-center gap-6">
-          <Link to="/">
+          <a href="https://www.facebook.com/KilkennyRiverCourtHotel/">
             <FaFacebook className="text-2xl fill-textLight hover:fill-textPrimary" />
-          </Link>
-          <Link to="/">
+
+          </a>
+          <a href="https://twitter.com/kk_river_court?lang=en">
             <FaTwitter className="text-2xl fill-textLight hover:fill-textPrimary" />
-          </Link>
-          <Link to="/">
+          
+          </a>
+          <a href="https://www.instagram.com/kilkennyrivercourt/?hl=en">
             <FaInstagram className="text-2xl fill-textLight hover:fill-textPrimary" />
-          </Link>
+            
+          </a>
         </div>
       </div>
     </footer>

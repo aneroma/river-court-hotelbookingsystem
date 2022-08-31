@@ -78,21 +78,21 @@ const RoomCardBookingSection = ({show, rate, bookedDates}) => {
           </span>
           <span className="w-full flex flex-row justify-between py-2 border-b-[1px] border-gray-300">
             <span className="font-bold">
-              ${rate} x {totalDays}
+            €{rate} x {totalDays}
             </span>
-            <span>${rate * totalDays}</span>
+            <span>€{rate * totalDays}</span>
           </span>
           <span className="w-full flex flex-row justify-between py-2 border-b-[1px] border-gray-300">
             <span className="font-bold">Service fee:</span>
-            <span>${totalDays * 10}</span>
+            <span>€{totalDays * 10}</span>
           </span>
           <span className="w-full flex flex-row justify-between py-2 border-b-[1px] border-gray-300">
             <span className="font-bold">Cleaning fee:</span>
-            <span>${totalDays * 5}</span>
+            <span>€{totalDays * 5}</span>
           </span>
           <span className="w-full flex flex-row text-base text-textPrimary justify-between py-2 mb-6">
             <span className="font-bold">Total:</span>
-            <span>${rate * totalDays + totalDays * 5 + totalDays * 10}</span>
+            <span>€{rate * totalDays + totalDays * 5 + totalDays * 10}</span>
           </span>
           <button
             className="btn-primary w-full mt-auto disabled:bg-gray-500"

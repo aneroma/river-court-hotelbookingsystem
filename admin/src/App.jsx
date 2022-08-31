@@ -70,7 +70,7 @@ const App = () => {
             <InputGroup
               label="Email"
               type="email"
-              placeholder="admin@bh.com"
+              placeholder="admin@krch.com"
               required
               value={email}
               onChange={(e) => setEmail(e.currentTarget.value)}
@@ -78,7 +78,7 @@ const App = () => {
             <InputGroup
               label="Password"
               type="password"
-              placeholder="bh.admin"
+              placeholder="krch.admin"
               required
               value={password}
               onChange={(e) => setPassword(e.currentTarget.value)}
